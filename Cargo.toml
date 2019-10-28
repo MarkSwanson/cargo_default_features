@@ -1,0 +1,13 @@
+[package]
+authors = ["Mark Swanson <mark.swanson.sw@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+name = "cargo_default_features"
+version = "0.0.1"
+
+[dependencies]
+num-traits = { version = ">=0.2.0", default-features = false }
+
+[[bin]]
+name = "cargo_default_features"
+
